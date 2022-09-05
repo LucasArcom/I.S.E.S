@@ -80,12 +80,29 @@ nav {
 .section {
   margin: 25px;
   background-color: #2929bd;
+  border-radius: 15px;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
   text-align: left; }
 
+.section-2 {
+  margin: 25px;
+  background-color: #2929bd;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: right; }
+
 .section-img {
   margin: 25px;
+  border-radius: 15px;
   max-width: 500px; }
+
+.section-txt {
+  margin: 25px;
+  font-size: 20px;
+  color: white; }

@@ -20,6 +20,7 @@
 .section {
     margin: $general-margin;
     background-color: $main-color;
+    border-radius: 15px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -27,7 +28,25 @@
     text-align: left;
 }
 
+.section-2 {
+    margin: $general-margin;
+    background-color: $main-color;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: right;
+}
+
 .section-img {
     margin: $general-margin;
+    border-radius: 15px;
     max-width: 500px;
+}
+
+.section-txt {
+    margin: $general-margin;
+    font-size: 20px;
+    color: white;
 }
