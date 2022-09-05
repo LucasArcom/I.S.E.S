@@ -131,6 +131,21 @@ nav {
   color: #e0e0e0;
   align-self: flex-start; }
 
+.authorities-img {
+  max-width: 170px;
+  margin: 25px; }
+
+.authorities-list {
+  display: flex;
+  list-style: none;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center; }
+  .authorities-list li {
+    margin: 10px;
+    color: white;
+    font-size: 20px; }
+
 .footer-container {
   display: flex;
   flex-direction: row;
