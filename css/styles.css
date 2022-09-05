@@ -107,6 +107,30 @@ nav {
   font-size: 20px;
   color: white; }
 
+.note-section {
+  margin: 25px;
+  background-color: #2929bd;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: left; }
+  .note-section h2 {
+    margin: 25px;
+    font-size: 25px;
+    color: white; }
+
+.note-txt {
+  margin: 25px;
+  color: white;
+  font-size: 20px; }
+
+.note-date {
+  margin-left: 25px;
+  color: #e0e0e0;
+  align-self: flex-start; }
+
 .footer-container {
   display: flex;
   flex-direction: row;

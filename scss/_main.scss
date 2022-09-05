@@ -50,3 +50,32 @@
     font-size: 20px;
     color: white;
 }
+
+.note-section {
+    margin: $general-margin;
+    background-color: $main-color;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+
+    h2 {
+        margin: $general-margin;
+        font-size: 25px;
+        color: white;
+    }
+}
+
+.note-txt {
+    margin: $general-margin;
+    color: white;
+    font-size: 20px;
+}
+
+.note-date {
+    margin-left: $general-margin;
+    color: rgb(224, 224, 224);
+    align-self: flex-start;
+}
