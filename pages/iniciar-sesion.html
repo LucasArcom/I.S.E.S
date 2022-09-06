@@ -8,7 +8,7 @@
     <!-- TÍTULO, KEYWORDS Y DESCRIPTION -->
     <title>I.S.E.S. - Sobre nosotros</title>
     <meta name="keywords" content="ISES, Epíritu Santo, Colegio, Secundaria, Católico">
-    <meta name="description" content="Conocé de donde venimos y a dónde vamos">
+    <meta name="description" content="Inicia sesión para usar tu perfil">
 
     <!-- FAVICON -->
     <link rel="icon" href="../media/images/logo.png">
@@ -41,7 +41,7 @@
                         <a class="navbar-link" href="../pages/sobre-nosotros.html">Sobre nosotros</a>
                     </li>
                     <li class="nav-item">
-                        <a class="log-in-link" href="../pages/sobre-nosotros.html">Iniciar sesión</a>
+                        <a class="log-in-link" href="../pages/iniciar-sesion.html">Iniciar sesión</a>
                     </li>
                 </ul>
                 <form class="d-flex" role="search">
@@ -55,9 +55,30 @@
     <!-- MAIN -->
     <main>
         <div class="brand-phrase">
-            <h1>Insituto Superior Espíritu Santo</h1>
-            <p>Viva el Espíritu Santo en nuestros corazones y en los corazones de todas las personas</p>
+            <h1>Iniciar sesión</h1>
+            <p>Ingresa al sito con tu correo y contraseña</p>
         </div>
+
+        <form>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Dirección de correo</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <div id="emailHelp" class="form-text">Nunca compartiremos tu dirección de correo con nadie</div>
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+              <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+            <div class="mb-3 form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Recuérdame</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Iniciar Sesión</button>
+          </form>
+
+          <div class="other-option-container">
+            <div class="other-option-content"> <h4 class="notes-title other-option-title">¿No tienes una cuenta?</h4> <a href="registrarse.html" class="other-option-link">Registrate aquí!</a> </div>
+          </div>
     </main>
 
     <!-- FOOTER -->

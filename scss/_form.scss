@@ -1,0 +1,36 @@
+form {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.btn-primary {
+    border-radius: 15px !important;
+}
+
+.other-option-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: $general-margin;
+}
+
+.other-option-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.other-option-title {
+    margin-right: 10px;
+    font-size: 25px
+}
+
+// EXTEND
+.other-option-link {
+    @extend .navbar-link;
+    font-size: 20px;
+    color: white;
+    background-color: $main-color;
+    margin: 5px;}

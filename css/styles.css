@@ -25,7 +25,7 @@ nav {
 .brand-name:hover {
   color: white; }
 
-.navbar-link {
+.navbar-link, .other-option-link {
   text-decoration: none;
   margin: 20px;
   color: white;
@@ -44,7 +44,7 @@ nav {
   border-radius: 15px;
   transition-duration: 0.3s; }
 
-.navbar-link:hover {
+.navbar-link:hover, .other-option-link:hover {
   background-color: white;
   color: black; }
 
@@ -191,3 +191,33 @@ nav {
 .social-img {
   max-width: 70px;
   border-radius: 15px; }
+
+form {
+  margin-left: 50px;
+  margin-right: 50px; }
+
+.btn-primary {
+  border-radius: 15px !important; }
+
+.other-option-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 25px; }
+
+.other-option-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center; }
+
+.other-option-title {
+  margin-right: 10px;
+  font-size: 25px; }
+
+.other-option-link {
+  font-size: 20px;
+  color: white;
+  background-color: #2929bd;
+  margin: 5px; }
