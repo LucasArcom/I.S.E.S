@@ -64,8 +64,6 @@ nav {
   color: white; }
 
 .brand-phrase {
-  display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -145,6 +143,16 @@ nav {
     margin: 10px;
     color: white;
     font-size: 20px; }
+
+.title-general {
+  font-size: 25px; }
+
+.title-notes {
+  font-size: 20px; }
+
+.brand-phrase {
+  display: flex;
+  flex-direction: column; }
 
 .footer-container {
   display: flex;

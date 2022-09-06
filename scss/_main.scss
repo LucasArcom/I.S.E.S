@@ -1,6 +1,4 @@
 .brand-phrase {
-    display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -97,4 +95,26 @@
         color: white;
         font-size: 20px;
     }
+}
+
+// MAPA
+$titles: (
+    general: 25px,
+    notes: 20px,
+);
+
+@each $title, $value in $titles {
+    .title-#{$title} {
+        font-size: $value;
+    }
+}
+
+// MIXIN
+@mixin flex ($flex, $direction,) {
+    display: $flex;
+    flex-direction: $direction;
+}
+
+.brand-phrase {
+    @include flex (flex, column)
 }
