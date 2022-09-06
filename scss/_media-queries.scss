@@ -1,0 +1,26 @@
+@media screen and (max-width: 1310px) {
+    .navbar-link {margin: 5px;}
+}
+
+@media screen and (max-width: 1070px) {
+    .navbar-link {margin: 0px;}
+    .section-img {max-width: 250px;}
+}
+
+@media screen and (max-width: 740px) {
+    .section {flex-direction: column;}
+    .section-2 {
+        flex-direction: column;
+        text-align: left;
+    }
+}
+
+@media screen and (max-width: 740px) {
+    .footer-logo {max-width: 70px;}
+    .footer-logo-txt {font-size: 18px;}
+    .footer-container {flex-direction: column;}
+    .section-img {margin: 5px;}
+    .social-networks {flex-direction: column;}
+    .other-option-content {flex-direction: column;}
+    .footer-brand {width: 150px;}
+}
